@@ -15,7 +15,7 @@ print("""
 ░▒▓███████▓▒░░▒▓████████▓▒░▒▓████████▓▒░░▒▓██████▓▒░   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░  ░▒▓█▓▒░     
                                                                                                                        
                                 Network Traffic Analysis and Intrusion Detection System
-                                  | 2025 Created by Marcelo M / @Xenclash on Github |                                                                    
+                                  | 2025 Created by @xenclash on Github |                                                                    
 """)
       
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
