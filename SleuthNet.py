@@ -20,7 +20,7 @@ print("""
       
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
 
-# Thread-safe dictionary for suspected IPs
+# Thread safe dictionary for suspected IPs
 suspected_ips = defaultdict(lambda: {
     "syn_count": 0,
     "port_count": 0,
