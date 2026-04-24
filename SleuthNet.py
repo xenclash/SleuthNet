@@ -82,6 +82,7 @@ def analyze_packet(packet):
         port_scan_detection(packet, ip_src)
         traffic_spike_detection(packet, ip_src)
 
+# Start packet sniffing
 def packet_sniffer(interface):
     scapy.sniff(iface=interface, prn=analyze_packet, store=False)
 
