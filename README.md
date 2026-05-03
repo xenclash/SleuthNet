@@ -36,4 +36,4 @@ sudo python3 SleuthNet.py
 This tool is for educational and authorized security testing purposes only, I am not responsible for how it's used.
 Please do not use on networks without permission!
 
-> - All code is made by scratch, then used Copilot to assist with enhancements applied to debugging, and optimization.
+> - All code is made by scratch, then used Copilot to assist with enhancements applied to debugging, and optimization!
