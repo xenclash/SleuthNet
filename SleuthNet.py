@@ -91,7 +91,7 @@ def start_sniffing(interface="eth0"):
     packet_sniffer(interface)
 
 if __name__ == "__main__":
-    interface = "eth0"  # Optionally, parse from sys.argv
+    interface = "eth0"  # Optional, parse from sys.argv
     threading.Thread(target=cleanup_suspected_ips, daemon=True).start()
     sniffing_thread = threading.Thread(target=start_sniffing, args=(interface,))
     sniffing_thread.start()
