@@ -34,7 +34,7 @@ lock = threading.Lock()
 SYN_FLOOD_THRESHOLD = 100
 PORT_SCAN_THRESHOLD = 50
 TRAFFIC_SPIKE_THRESHOLD = 100
-TRAFFIC_SPIKE_WINDOW = 10  # seconds
+TRAFFIC_SPIKE_WINDOW = 10  # Seconds
 
 def syn_flood_detection(packet, ip_src):
     if packet.haslayer(scapy.TCP) and packet[scapy.TCP].flags == "S":
