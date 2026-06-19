@@ -59,7 +59,7 @@ def traffic_spike_detection(packet, ip_src):
     with lock:
         suspected_ips[ip_src]["timestamps"].append(now)
         suspected_ips[ip_src]["last_seen"] = now
-        # Remove timestamps older than TRAFFIC_SPIKE_WINDOW
+        # Remove all timestamps older than TRAFFIC_SPIKE_WINDOW
         suspected_ips[ip_src]["timestamps"] = [
             t for t in suspected_ips[ip_src]["timestamps"] if now - t < TRAFFIC_SPIKE_WINDOW
         ]
