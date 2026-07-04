@@ -45,7 +45,7 @@ sudo python3 SleuthNet.py -i eth0
 Alerts are timestamped and printed to both the terminal and the log file:
 
 ```
-2026-07-03 21:14:02 WARNING Possible port scan detected from 192.168.1.42 (63 ports in 10s)
+2026-07-03 21:14:02 WARNING Possible port scan detected from 192.168.1.x (63 ports in 10s)
 ```
 
 ## Disclaimer
