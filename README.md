@@ -1,6 +1,6 @@
-# SleuthNet
+# SleuthNet Version 1.0
 
-SleuthNet is a lightweight, Python based Network Traffic Analysis and Intrusion Detection System. It monitors live traffic and raises real-time terminal alerts for SYN floods, port scans, and traffic spikes.
+SleuthNet is a lightweight, Python based Network Traffic Analysis and Intrusion Detection System. It monitors live traffic and raises real-time terminal alerts for SYN floods, port scans, and traffic spikes. (Project is still WIP)
 
 ## Features
 
