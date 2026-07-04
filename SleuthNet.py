@@ -34,7 +34,7 @@ suspected_ips = defaultdict(lambda: {
 })
 lock = threading.Lock()
 
-# Defaults; can be overridden via CLI args in main()
+# Defaults can be overridden via CLI args in main()
 SYN_FLOOD_THRESHOLD = 100
 PORT_SCAN_THRESHOLD = 50
 TRAFFIC_SPIKE_THRESHOLD = 100
