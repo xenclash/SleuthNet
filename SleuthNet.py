@@ -164,5 +164,5 @@ if __name__ == "__main__":
         while sniffing_thread.is_alive():
             sniffing_thread.join(timeout=1)
     except KeyboardInterrupt:
-        logging.info("[*] Stopping SleuthNet...")
+        logging.info("[*] Stopping SleuthNet..")
         sys.exit(0)
