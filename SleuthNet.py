@@ -38,7 +38,7 @@ lock = threading.Lock()
 SYN_FLOOD_THRESHOLD = 100
 PORT_SCAN_THRESHOLD = 50
 TRAFFIC_SPIKE_THRESHOLD = 100
-DETECTION_WINDOW = 10        # Seconds, sliding window for all three detectors
+DETECTION_WINDOW = 10        # Seconds sliding window for all three detectors
 ALERT_COOLDOWN = 30          # Seconds between repeat alerts for the same IP/type
 INACTIVE_TIMEOUT = 300       # Seconds of silence before an IP is forgotten
 
