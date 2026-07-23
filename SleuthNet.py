@@ -149,7 +149,7 @@ if __name__ == "__main__":
     DETECTION_WINDOW = args.window
 
     if hasattr(os, "geteuid") and os.geteuid() != 0:
-        logging.error("[!] SleuthNet requires root privileges to capture packets. Try running with sudo.")
+        logging.error("[!] SleuthNet requires root privileges to capture packets, try running with sudo.")
         sys.exit(1)
 
     if args.interface not in scapy.get_if_list():
