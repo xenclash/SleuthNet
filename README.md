@@ -48,10 +48,6 @@ Alerts are timestamped and printed to both the terminal and the log file:
 2026-07-03 21:14:02 WARNING Possible port scan detected from 192.168.1.x (63 ports in 10s)
 ```
 
-## Disclaimer
-
-For educational and authorized security testing only. Do not run against networks without explicit permission — the author is not responsible for misuse.
-
 ## License
 
 MIT License
