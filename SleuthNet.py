@@ -23,7 +23,7 @@ print("""
                                       | 2026 Created by @xenclash on Github |
 """)
 
-# Thread safe dictionary for suspected IPs, and timestamps stored in sliding.
+# Thread safe dictionary for suspected IPs, and timestamps stored in the sliding.
 # Windows (deques) so counts decay naturally instead of growing forever.
 suspected_ips = defaultdict(lambda: {
     "syn_timestamps": deque(),
