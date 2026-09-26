@@ -4,14 +4,14 @@ SleuthNet is a lightweight, Python based Network Traffic Analysis and Intrusion 
 
 ## Features
 
-- **SYN Flood Detection** — flags IPs sending excessive SYN packets within a sliding time window.
-- **Port Scan Detection** — flags IPs touching an unusual number of distinct ports within a sliding time window.
-- **Traffic Spike Detection** — flags IPs generating abnormal packet volume within a sliding time window.
-- **Alert Cooldown** — suppresses repeat alerts per IP/attack type so logs stay readable during a sustained attack.
-- **Thread-Safe & Efficient** — single-lock packet analysis with a kernel-level BPF filter (`ip`) to cut overhead.
-- **Automatic Cleanup** — forgets inactive IPs on a timer to keep memory bounded.
-- **Configurable** — tune thresholds, window, interface, and log file via CLI flags.
-- **Rotating Logs** — alerts are written to both the terminal and a rotating log file.
+- **SYN Flood Detection** - flags IPs sending excessive SYN packets within a sliding time window.
+- **Port Scan Detection** - flags IPs touching an unusual number of distinct ports within a sliding time window.
+- **Traffic Spike Detection** - flags IPs generating abnormal packet volume within a sliding time window.
+- **Alert Cooldown** - suppresses repeat alerts per IP/attack type so logs stay readable during a sustained attack.
+- **Thread-Safe & Efficient** - single-lock packet analysis with a kernel-level BPF filter (`ip`) to cut overhead.
+- **Automatic Cleanup** - forgets inactive IPs on a timer to keep memory bounded.
+- **Configurable** - tune thresholds, window, interface, and log file via CLI flags.
+- **Rotating Logs** - alerts are written to both the terminal and a rotating log file.
 
 ## Requirements
 
