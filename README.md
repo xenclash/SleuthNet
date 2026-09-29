@@ -54,4 +54,4 @@ MIT License
 
 ---
 
-All code is made by scratch, then used Claude to assist with enhancements applied to debugging, and optimization.
+All code is made by scratch, then used Claude to assist with enhancements applied to debugging, & optimization.
