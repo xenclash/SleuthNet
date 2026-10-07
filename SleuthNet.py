@@ -20,7 +20,7 @@ print("""
 ░▒▓███████▓▒░░▒▓████████▓▒░▒▓████████▓▒░░▒▓██████▓▒░   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░  ░▒▓█▓▒░
 
                        | Network Traffic Analysis & Intrusion Detection System version 1.0 |
-                                         | 2026 Created by @xenclash |
+                                          | 2026 Created by @xenclash |
 """)
 
 # Thread safe dictionary for suspected IPs, and timestamps stored in the sliding.
